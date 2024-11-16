@@ -1,0 +1,25 @@
+28 healthy
+25 non-Covid-19
+37 non-severe Covid-19
+28 severe Covid-19
+
+
+96 sample for metabolite profiling
+25 healthy
+25 non-Covid-19
+25 non-severe Covid-19
+21 severe Covid-19
+
+92 sample for protein profiling
+21 healthy
+24 non-Covid-19
+24 non-severe Covid-19
+17 severe Covid-19
+
+
+
+29 healthy
+26 non-Covid-19
+38 no-severe Covid-19
+29 severe Covid-19
+112 samples in metabolites_metadata.txt
