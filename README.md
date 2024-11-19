@@ -10,7 +10,8 @@ To achieve this, a neural network model will be developed to analyze metabolite 
 Vedant Mahangade (GitHub: vedantMahangade)
 
 ## Data Source
-The data for this project is based on a study 
-[Proteomic and Metabolomic Characterization of COVID-19 Patient Sera](https://www.cell.com/cell/fulltext/S0092-8674(20)30627-9?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867420306279%3Fshowall%3Dtrue)
+The data for this project is based on two different studies 
+- [The plasma metabolome of long COVID patients two years after infection](https://www.nature.com/articles/s41598-023-39049-x)
+- [Targeted metabolomics identifies high performing diagnostic and prognostic biomarkers for COVID-19](https://www.nature.com/articles/s41598-021-94171-y)
 
-All the required data files are provided in the Supplemental Information section of this research paper.
+All the required data files are provided in the Data availability section of these research papers.
