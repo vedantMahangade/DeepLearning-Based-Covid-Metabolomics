@@ -1,5 +1,10 @@
 Discard/
+models/
+analysis/
 .DS_Store
 .ipynb_checkpoints
 try*
-
+*.xlsx
+.Rproj.user
+*.py
+*.txt
