@@ -1,10 +1,9 @@
-Discard/
+*Discard/
 models/
-analysis/
-.DS_Store
 .ipynb_checkpoints
+__pycache__
+.DS_Store
 try*
 *.xlsx
 .Rproj.user
-*.py
 *.txt
