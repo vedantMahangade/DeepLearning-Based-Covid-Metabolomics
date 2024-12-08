@@ -156,7 +156,7 @@ class Trainer:
 
             # Extract predictions and store them
             # preds = tf.argmax(logits, axis=1)
-            # Replace prediction logic for binary classification
+            # If problability > 0.5 then class 1 else class 0
             preds = tf.cast(logits > 0.5, tf.int32)
             all_preds.extend(preds.numpy())
             all_labels.extend(y_batch.numpy())
@@ -207,6 +207,7 @@ class Trainer:
 
             # Extract predictions and store them
             # preds = tf.argmax(logits, axis=1)
+            # Apply threshold if probability > 0.5 then class 1 else class 0
             preds = tf.cast(logits > 0.5, tf.int32)
             all_preds.extend(preds.numpy())
             all_labels.extend(y_batch.numpy())
