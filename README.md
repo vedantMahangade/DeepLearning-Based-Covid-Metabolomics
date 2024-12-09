@@ -49,8 +49,17 @@ Important aspects:
 
 ![CNN](files/cnn_diagram.png)
 
+## Interesting metabolites identified
+Using SHAP permutation explainer, key features were identified. 
+Processing the shapley values by agregating them and ranking based on absolute mean difference of mean shapley values for covid and means shapley values for control resulted in some interesting findings.
 
-## Important files
+This figure highlights top 20 metabolites. Red bar indicates the feature has negative impact on models prediction for that perticular class. For example high value of beta-hydroxybutyric (BHB) acid would lead the towards control as output, which also indicates low level of [BHB](https://www.nature.com/articles/s41586-022-05128-8) is an indicator of SARS-CoV-2 infection.
+Blue highlights are interesting ones with proofs in surrounding literature.
+
+![Biomarkers](files/interesting_metabolites.png)
+
+
+## Folder Structure
     .
     ├── data/
     │   ├── covid19_metabolites.csv: Final preprocessed dataset obtained from data_preprocessing.ipynb
