@@ -78,5 +78,6 @@ Blue highlights are interesting ones with proofs in surrounding literature.
     │   └── metbio1d.net: Custom hybrid CNN model displayed under 'Hybrid CNN' section
     │
     ├── .gitignore
+    ├── Project presentation.pptx
     ├── README.md
     └── requirements.txt
